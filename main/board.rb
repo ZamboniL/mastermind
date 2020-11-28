@@ -33,7 +33,7 @@ class Board
 
   # Update the total match count each round
   def update_total_matches
-    self.correct_matches = (maker.code.filter.with_index { |v, i| v == breaker.guess[i] }).length
+    self.correct_matches = (maker.code.select.with_index { |v, i| v == breaker.guess[i] }).length
     self.matches = 4 - (maker.code - breaker.guess).length - correct_matches
   end
 end
