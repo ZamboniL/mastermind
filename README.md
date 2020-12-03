@@ -24,7 +24,7 @@ ruby main/mastermind.rb
 
 You can also play the game in this repl: https://repl.it/@ZamboniL1/mastermind#README.md
 
-Withou installing anything!
+Without installing anything!
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
